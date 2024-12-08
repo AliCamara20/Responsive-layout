@@ -139,11 +139,16 @@ header{
 }
 
 .hero_title{
-    font-size: clamp(4rem, .875rem + 1vw, 3.75rem);
+    font-size: clamp(3.25rem, .875rem + 1vw, 3.75rem);
     color: var(--general-color);
     
 }
-
+.section-four, .section-three{
+    border: 3px solid green;
+}
+.container{
+    border: 1px solid dodgerblue;
+}
 .emphasis{
     color: var(--heading-color);
     display: inline-block;
