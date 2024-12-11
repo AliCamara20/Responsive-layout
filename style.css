@@ -29,6 +29,7 @@ h1, h2{
 
 p{
     font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1rem, .875rem + 1vw, 1.125rem );
 }
 
 img{
@@ -173,10 +174,11 @@ header{
     color: var(--heading-color);
     font-weight: 900;
 }
-
+/*
 .section-two p{
     font-size: var(--px18);
 }
+*/
 
 .section-three{
    padding: 3em 0;
@@ -186,10 +188,11 @@ header{
     font-size: var(--px36);
     color: var(--heading-color);
 }
-
+/*
 .section-pg{
     font-size: var(--px21);
 }
+*/
 
 .col_three--col{
     background-color: var(--secondary-color);
@@ -205,10 +208,11 @@ header{
 .col-heading{
     font-size: var(--px30);    
 }
-
+/*
 .col-pg{
     font-size: var(--px18);
 }
+*/
 
 .section-four{
     background: var(--secondary-color);
@@ -234,9 +238,11 @@ header{
 .section-four h3{
     font-size: var(--px16) 
 }
+/*
 .section-four p{
     font-size: var(--px16);
 }
+*/
 
 
 
