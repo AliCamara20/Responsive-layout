@@ -1,13 +1,9 @@
-*{
+*, *::before, *::after{
     box-sizing: border-box;
 }
-html, body{
-}
-
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: clip;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 :root{
@@ -47,11 +43,10 @@ img{
 }
 
 
-
-
 header{
     background-color: var(--primary-color);
     padding: .5em 0;
+    position: relative;
 }
 
 .visible{
@@ -59,20 +54,19 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
-.hamMenu{
+ .hamMenu{
     background: transparent;
     border: none;
-    cursor: pointer;
-    
-}
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
 
-.hamMenu svg{
-    width: 40px;
-    height: 40px;
-    fill: #e5e7f0;
-    
-}
+ .hamMenu svg{
+    width: 30px;
+    height: 30px;
+ }
+
 
 .logo{
     margin: 0 auto;
@@ -90,7 +84,6 @@ header{
     height: 0;
     visibility: hidden;
     position: absolute;
-    width: 100%;
     text-align: center;
     font-size: .9rem;
     padding: 1em 0;
@@ -143,12 +136,7 @@ header{
     color: var(--general-color);
     
 }
-.section-four, .section-three{
-    border: 3px solid green;
-}
-.container{
-    border: 1px solid dodgerblue;
-}
+
 .emphasis{
     color: var(--heading-color);
     display: inline-block;
@@ -250,9 +238,6 @@ header{
     font-size: var(--px16);
 }
 
-section, .container{
-
-}
 
 
 .col--row{
@@ -271,8 +256,6 @@ section, .container{
         /*margin-left: 40px;*/
     }
 
-    
-
     .col_three--col + .col_three--col{
         margin-top: 0;
         margin-left: 40px;
@@ -285,10 +268,6 @@ section, .container{
     .col--row{
         margin-top: 0;
     }
-
-
-
-    
 
 }
 
@@ -387,11 +366,6 @@ section, .container{
     
 }
 
-@media (min-width: 320px ){
-    body{
-        overflow-x: hidden;
-    }
-}
 
 
 
